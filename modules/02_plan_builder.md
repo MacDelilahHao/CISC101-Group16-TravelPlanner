@@ -1,4 +1,4 @@
-Change Log (2025-11-12): – Updated loop to include max time restraints.
+Change Log (2025-11-12): – Updated loop to include max time restraints and budget constraints.
 
 ### **Module 2 — Plan Builder (Options → Days)**
 
@@ -8,9 +8,9 @@ Each activity includes type, estimated duration, cost range, and distance.
 Use a simple loop to build days:
 
 for each day:  
-    pick Morning activity that lasts a maximum of 1 hour (near lodging)   
-    pick Midday activity that lasts a maximum of 1 hour (close by)  
-    pick Afternoon activity that lasts a maximum of 1 hour (different theme)  
-    pick Evening restaurant or optional event that lasts a maximum of 1 hour
+    pick Morning activity that lasts a maximum of 1 hour with budget of $30 (near lodging)  
+    pick Midday activity that lasts a maximum of 1 hour with budget of $30 (close by)  
+    pick Afternoon activity that lasts a maximum of 1 hour with budget of $30 (different theme)  
+    pick Evening restaurant or optional event that lasts a maximum of 1 hour with budget of $30  
 
 ---
