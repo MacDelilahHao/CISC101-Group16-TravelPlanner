@@ -8,9 +8,9 @@ Each activity includes type, estimated duration, cost range, and distance.
 Use a simple loop to build days:
 
 for each day:  
-    pick Morning activity that lasts a maximum of 1 hour with budget of $30 (near lodging)  
+    pick Morning activity that lasts a maximum of 1 hour with budget of $30 (near lodging)   
     pick Midday activity that lasts a maximum of 1 hour with budget of $30 (close by)  
     pick Afternoon activity that lasts a maximum of 1 hour with budget of $30 (different theme)  
-    pick Evening restaurant or optional event that lasts a maximum of 1 hour with budget of $30  
+    pick Evening restaurant or optional event that lasts a maximum of 1 hour with budget of $30 
 
 ---
