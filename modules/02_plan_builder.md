@@ -1,4 +1,4 @@
-Change Log (2025-11-12): – Updated loop to include max time restraints.
+Change Log (2025-11-12): – Updated loop to include max time restraints and budget constraints.
 
 ### **Module 2 — Plan Builder (Options → Days)**
 
