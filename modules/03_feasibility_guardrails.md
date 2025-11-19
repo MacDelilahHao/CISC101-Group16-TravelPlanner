@@ -1,35 +1,34 @@
-### **Module 3 — Feasibility & Guardrails**
+# Change Log:
+AI critquing improved conditon 2, 4, 5, and added 9.
 
-Apply these **if/else** checks to make sure plans are realistic and adapt to edge cases:
+# Module 3 — Feasibility & Guardrails
 
-1. **Closed Venue**
-   
-   - If a museum or park is closed on that day → suggest a similar indoor option nearby.
+Apply these **if/else checks** to make sure plans are realistic and adapt to edge cases:
 
-2. **Over-Budget Meal**
-   
-   - If meal cost > user’s budget → switch to a cheaper restaurant of similar cuisine.
+## Closed Venue
+- If a museum or park is closed on that day → suggest a similar indoor option nearby.
 
-3. **Too Far or Long Travel**
-   
-   - If transfer between activities > 25 min or > 5 km → pick a closer alternative or add a short transit hop.
+## Over-Budget Meal or Activity
+- If meal or activity exceeds budget → swap for a cheaper but similar option.
 
-4. **Weather Swap**
-   
-   - If rain or cold season likely → make sure at least one indoor activity replaces outdoor ones.
+## Too Far or Long Travel
+- If transfer between activities > 25 min or > 5 km → pick a closer alternative or add a short transit hop.
 
-5. **Time Overrun**
-   
-   - If total planned time > available hours → shorten lunch or pick a nearer stop.
+## Weather Swap
+- If rain, cold, heat, or seasonal closure likely → ensure at least one indoor or climate-safe backup.
 
-6. **Mobility Needs**
-   
-   - If mobility limits noted → choose step-free, short-walk options and include breaks.
+## Time Overrun
+- If plan exceeds available hours → drop optional events or shorten meals.
 
-7. **Dietary Needs**
-   
-   - If user is vegan or has dietary constraints → ensure all meals match or swap with compliant ones.
+## Mobility Needs
+- If mobility limits noted → choose step-free, short-walk options and include breaks.
 
-8. **Bookings**
-   
-   - If activity usually needs a ticket → just remind the user to book it; never simulate bookings.
+## Dietary Needs
+- If user is vegan or has dietary constraints → ensure all meals match or swap with compliant ones.
+
+## Bookings
+- If activity usually needs a ticket or reservation → just remind the user to book it; never simulate bookings.
+
+## Missing or Invalid Data
+- If user gives invalid data (e.g., negative budget, no destination, or vague “Europe trip”) → ask them to clarify what they are asking for.
+
